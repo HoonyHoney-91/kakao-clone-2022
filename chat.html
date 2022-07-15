@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat screen KakaoTalk</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+            <!-- To So: Wifi Icon -->
+        </div>
+        <div class="status-bar__column">
+            <span>18:45</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-xl"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">Sudi</h1>
+        </div>
+        <div class="alt-header__column">
+          <span><i class="fas fa-search fa-2x"></i></span>
+          <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+        
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thursday, Julu 14,2022
+        </div>
+        <div class="message-row">
+            <img src="css/sudi.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Sudi</span>
+                <div class="message__info">
+                    <span class="message__bubble">I hate you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">I know</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply" action="">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-smile-wink"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
+</body>
+</html> 
